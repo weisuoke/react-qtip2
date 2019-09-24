@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "styleguidist server"
+    "doc": "styleguidist server",
+    "doc:build": "styleguidist build"
   },
   "repository": {
     "type": "git",
@@ -19,12 +20,19 @@
   "homepage": "https://github.com/weisuoke/react-qtip2#readme",
   "devDependencies": {
     "@babel/core": "^7.6.2",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
     "@babel/preset-env": "^7.6.2",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-styleguidist": "^9.1.16",
+    "style-loader": "^1.0.0",
     "webpack": "^4.40.2"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "qtip2": "^3.0.3"
   }
 }
