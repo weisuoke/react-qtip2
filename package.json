@@ -32,7 +32,7 @@
     "webpack": "^4.40.2"
   },
   "dependencies": {
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "qtip2": "^3.0.3"
   }
 }
